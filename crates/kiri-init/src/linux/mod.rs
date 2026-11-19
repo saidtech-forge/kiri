@@ -1,3 +1,4 @@
+// Modified by saidtech-forge (https://github.com/saidtech-forge/kiri), 2026-11-19: containers on a Linux host reach the internet when the host's FORWARD policy is DROP (Docker, ufw).
 mod agent;
 mod cgroup;
 mod container;
@@ -5,6 +6,7 @@ mod devices;
 mod copy;
 mod dns;
 mod fsview;
+mod hostfw;
 mod hostopts;
 mod inroot;
 mod layers;
